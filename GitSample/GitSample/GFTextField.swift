@@ -8,10 +8,11 @@
 import UIKit
 
 class GFTextField: UITextField {
-
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         configure()
+        addToolBar()
     }
     
     required init?(coder: NSCoder) {
@@ -36,5 +37,25 @@ class GFTextField: UITextField {
         autocorrectionType = .no
         
         placeholder = "Enter a username"
+        
+        returnKeyType = .go
+    }
+    
+    private func addToolBar() {
+        let doneToolbar: UIToolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: frame.width, height: 50))
+        doneToolbar.barStyle = .default
+        
+        let flexSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+        let done = UIBarButtonItem(title: "Done", style: .done, target: self, action: #selector(self.doneButtonAction))
+        
+        let items = [flexSpace, done]
+        doneToolbar.items = items
+        doneToolbar.sizeToFit()
+        
+        inputAccessoryView = doneToolbar
+    }
+    
+    @objc func doneButtonAction(){
+        resignFirstResponder()
     }
 }
