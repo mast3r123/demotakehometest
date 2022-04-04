@@ -111,7 +111,6 @@
 		AFDFD0B327F6343300E2BAC3 = {
 			isa = PBXGroup;
 			children = (
-				AF94A71A27FA7F68002495B9 /* Model */,
 				AFDFD0BE27F6343300E2BAC3 /* GitSample */,
 				AFDFD0BD27F6343300E2BAC3 /* Products */,
 			);
@@ -128,6 +127,7 @@
 		AFDFD0BE27F6343300E2BAC3 /* GitSample */ = {
 			isa = PBXGroup;
 			children = (
+				AF94A71A27FA7F68002495B9 /* Model */,
 				AFDFD0CD27F6343400E2BAC3 /* Info.plist */,
 				AF94A71927FA7958002495B9 /* Support */,
 				AF94A71827FA78B4002495B9 /* Extensions */,
