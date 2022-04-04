@@ -11,6 +11,7 @@ class GFContainerView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
+        configure()
     }
     
     required init?(coder: NSCoder) {
@@ -19,6 +20,7 @@ class GFContainerView: UIView {
     
     init() {
         super.init(frame: .zero)
+        configure()
     }
     
     private func configure() {

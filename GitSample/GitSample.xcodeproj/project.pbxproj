@@ -53,6 +53,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF94A71627FA77E8002495B9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF0945CA27F91C9300155A1F /* SearchVC.swift */,
+				AF0945CC27F91D4A00155A1F /* FavoritesListVC.swift */,
+				AF94A70A27F9F84F002495B9 /* FollowerListVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF94A71727FA784F002495B9 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF94A71227FA0E24002495B9 /* GFContainerView.swift */,
+				AF0945CE27F93A2300155A1F /* GFButton.swift */,
+				AF0945D027F93F8300155A1F /* GFTextField.swift */,
+				AF94A70C27FA08AF002495B9 /* GFTitleLabel.swift */,
+				AF94A70E27FA0A6F002495B9 /* GFBodyLabel.swift */,
+				AF94A71027FA0B92002495B9 /* GFAlertVC.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		AF94A71827FA78B4002495B9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF94A71427FA1644002495B9 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AF94A71927FA7958002495B9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				AFDFD0BF27F6343300E2BAC3 /* AppDelegate.swift */,
+				AFDFD0C127F6343300E2BAC3 /* SceneDelegate.swift */,
+				AFDFD0C827F6343400E2BAC3 /* Assets.xcassets */,
+				AFDFD0CA27F6343400E2BAC3 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		AFDFD0B327F6343300E2BAC3 = {
 			isa = PBXGroup;
 			children = (
@@ -72,21 +114,11 @@
 		AFDFD0BE27F6343300E2BAC3 /* GitSample */ = {
 			isa = PBXGroup;
 			children = (
-				AFDFD0BF27F6343300E2BAC3 /* AppDelegate.swift */,
-				AFDFD0C127F6343300E2BAC3 /* SceneDelegate.swift */,
-				AFDFD0C827F6343400E2BAC3 /* Assets.xcassets */,
-				AFDFD0CA27F6343400E2BAC3 /* LaunchScreen.storyboard */,
 				AFDFD0CD27F6343400E2BAC3 /* Info.plist */,
-				AF0945CA27F91C9300155A1F /* SearchVC.swift */,
-				AF0945CC27F91D4A00155A1F /* FavoritesListVC.swift */,
-				AF0945CE27F93A2300155A1F /* GFButton.swift */,
-				AF0945D027F93F8300155A1F /* GFTextField.swift */,
-				AF94A70A27F9F84F002495B9 /* FollowerListVC.swift */,
-				AF94A70C27FA08AF002495B9 /* GFTitleLabel.swift */,
-				AF94A70E27FA0A6F002495B9 /* GFBodyLabel.swift */,
-				AF94A71027FA0B92002495B9 /* GFAlertVC.swift */,
-				AF94A71227FA0E24002495B9 /* GFContainerView.swift */,
-				AF94A71427FA1644002495B9 /* UIViewController+Extension.swift */,
+				AF94A71927FA7958002495B9 /* Support */,
+				AF94A71827FA78B4002495B9 /* Extensions */,
+				AF94A71727FA784F002495B9 /* Custom Views */,
+				AF94A71627FA77E8002495B9 /* Controllers */,
 			);
 			path = GitSample;
 			sourceTree = "<group>";
