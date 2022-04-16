@@ -11,6 +11,7 @@
 		AF0945CD27F91D4A00155A1F /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0945CC27F91D4A00155A1F /* FavoritesListVC.swift */; };
 		AF0945CF27F93A2300155A1F /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0945CE27F93A2300155A1F /* GFButton.swift */; };
 		AF0945D127F93F8300155A1F /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0945D027F93F8300155A1F /* GFTextField.swift */; };
+		AF5F9AB6280B2DBC0068E3F2 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F9AB5280B2DBC0068E3F2 /* UIHelper.swift */; };
 		AF8F281527FB31F2007FB7DD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F281427FB31F2007FB7DD /* NetworkManager.swift */; };
 		AF8F281827FB3F9C007FB7DD /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F281727FB3F9C007FB7DD /* ErrorMessage.swift */; };
 		AF94A70B27F9F84F002495B9 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF94A70A27F9F84F002495B9 /* FollowerListVC.swift */; };
@@ -34,6 +35,7 @@
 		AF0945CC27F91D4A00155A1F /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		AF0945CE27F93A2300155A1F /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		AF0945D027F93F8300155A1F /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		AF5F9AB5280B2DBC0068E3F2 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		AF8F281427FB31F2007FB7DD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		AF8F281727FB3F9C007FB7DD /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		AF94A70A27F9F84F002495B9 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				AF8F281727FB3F9C007FB7DD /* ErrorMessage.swift */,
+				AF5F9AB5280B2DBC0068E3F2 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				AF94A71327FA0E24002495B9 /* GFContainerView.swift in Sources */,
 				AF94A70B27F9F84F002495B9 /* FollowerListVC.swift in Sources */,
 				AF8F281827FB3F9C007FB7DD /* ErrorMessage.swift in Sources */,
+				AF5F9AB6280B2DBC0068E3F2 /* UIHelper.swift in Sources */,
 				AF8F281527FB31F2007FB7DD /* NetworkManager.swift in Sources */,
 				AFDFD0C027F6343300E2BAC3 /* AppDelegate.swift in Sources */,
 				AFDFD0C227F6343300E2BAC3 /* SceneDelegate.swift in Sources */,
