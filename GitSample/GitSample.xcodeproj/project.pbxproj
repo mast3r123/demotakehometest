@@ -19,6 +19,7 @@
 		AF26FF37281C8F7E006410CE /* GFFolloweItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF26FF36281C8F7E006410CE /* GFFolloweItemVC.swift */; };
 		AF42E89528344024004DE886 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF42E89428344024004DE886 /* FavoriteCell.swift */; };
 		AF42E898283480E8004DE886 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF42E897283480E8004DE886 /* GFTabBarController.swift */; };
+		AF42E89A283493CA004DE886 /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF42E899283493CA004DE886 /* GFDataLoadingVC.swift */; };
 		AF4CF57F2833304F009DF75E /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CF57E2833304F009DF75E /* PersistenceManager.swift */; };
 		AF5F9AB6280B2DBC0068E3F2 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F9AB5280B2DBC0068E3F2 /* UIHelper.swift */; };
 		AF79CA39280E3793004E6A0A /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79CA38280E3793004E6A0A /* UserInfoVC.swift */; };
@@ -57,6 +58,7 @@
 		AF26FF36281C8F7E006410CE /* GFFolloweItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFolloweItemVC.swift; sourceTree = "<group>"; };
 		AF42E89428344024004DE886 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		AF42E897283480E8004DE886 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
+		AF42E899283493CA004DE886 /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 		AF4CF57E2833304F009DF75E /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		AF5F9AB5280B2DBC0068E3F2 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		AF79CA38280E3793004E6A0A /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 				AF26FF38281C8FFF006410CE /* ItemInfoVCS */,
 				AF94A71027FA0B92002495B9 /* GFAlertVC.swift */,
 				AF00B3F0280F8FC000F4BA67 /* GFUserInfoHeaderVC.swift */,
+				AF42E899283493CA004DE886 /* GFDataLoadingVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				AF00B3F1280F8FC000F4BA67 /* GFUserInfoHeaderVC.swift in Sources */,
 				AF0945CF27F93A2300155A1F /* GFButton.swift in Sources */,
 				AF0945CB27F91C9300155A1F /* SearchVC.swift in Sources */,
+				AF42E89A283493CA004DE886 /* GFDataLoadingVC.swift in Sources */,
 				AFE5587B280C77B300282612 /* GFEmptyStateView.swift in Sources */,
 				AF00B3F3280F903600F4BA67 /* GFSecondaryTitleLabel.swift in Sources */,
 				AF94A71127FA0B92002495B9 /* GFAlertVC.swift in Sources */,
