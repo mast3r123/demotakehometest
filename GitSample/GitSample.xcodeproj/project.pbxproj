@@ -34,6 +34,7 @@
 		AF94A71527FA1644002495B9 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF94A71427FA1644002495B9 /* UIViewController+Extension.swift */; };
 		AF94A71C27FA7F82002495B9 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF94A71B27FA7F82002495B9 /* Follower.swift */; };
 		AF94A71E27FA805B002495B9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF94A71D27FA805B002495B9 /* User.swift */; };
+		AFA7FB0D283BE8270098B1AD /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA7FB0C283BE8270098B1AD /* UITableView+Extension.swift */; };
 		AFB76DC72803454D00C8D193 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB76DC62803454D00C8D193 /* FollowerCell.swift */; };
 		AFB76DC92803463F00C8D193 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB76DC82803463F00C8D193 /* GFAvatarImageView.swift */; };
 		AFD47E2028315D2700407D21 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47E1F28315D2700407D21 /* Date+Extension.swift */; };
@@ -74,6 +75,7 @@
 		AF94A71427FA1644002495B9 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		AF94A71B27FA7F82002495B9 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		AF94A71D27FA805B002495B9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AFA7FB0C283BE8270098B1AD /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		AFB76DC62803454D00C8D193 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		AFB76DC82803463F00C8D193 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		AFD47E1F28315D2700407D21 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				AFD47E1F28315D2700407D21 /* Date+Extension.swift */,
 				AFD47E2128315D6300407D21 /* String+Extension.swift */,
 				AFDC0F652835CD4B008BF608 /* UIView+Extension.swift */,
+				AFA7FB0C283BE8270098B1AD /* UITableView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				AFDC0F662835CD4B008BF608 /* UIView+Extension.swift in Sources */,
 				AF00B3F3280F903600F4BA67 /* GFSecondaryTitleLabel.swift in Sources */,
 				AF94A71127FA0B92002495B9 /* GFAlertVC.swift in Sources */,
+				AFA7FB0D283BE8270098B1AD /* UITableView+Extension.swift in Sources */,
 				AF94A71E27FA805B002495B9 /* User.swift in Sources */,
 				AFB76DC72803454D00C8D193 /* FollowerCell.swift in Sources */,
 				AFB76DC92803463F00C8D193 /* GFAvatarImageView.swift in Sources */,
