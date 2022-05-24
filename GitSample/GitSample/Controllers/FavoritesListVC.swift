@@ -12,7 +12,7 @@ class FavoritesListVC: GFDataLoadingVC {
     let tableView = UITableView()
     var favorites = [Follower]()
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
@@ -43,7 +43,7 @@ class FavoritesListVC: GFDataLoadingVC {
         
         tableView.register(FavoriteCell.self, forCellReuseIdentifier: FavoriteCell.reuseId)
     }
-
+    
     func getFavorites() {
         PersistenceManage.retrieveFavorites { [weak self] result in
             
@@ -54,7 +54,9 @@ class FavoritesListVC: GFDataLoadingVC {
                 self.updateUI(with: favorites)
                 
             case .failure(let error):
-                self.presentGFAlert(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
+                DispatchQueue.main.async {
+                    self.presentGFAlert(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
+                }
                 break
             }
         }
@@ -108,7 +110,9 @@ extension FavoritesListVC: UITableViewDataSource, UITableViewDelegate {
                 return
             }
             
-            self.presentGFAlert(title: "Unable to remove", message: error.rawValue, buttonTitle: "Ok")
+            DispatchQueue.main.async {
+                self.presentGFAlert(title: "Unable to remove", message: error.rawValue, buttonTitle: "Ok")
+            }
         }
     }
 }

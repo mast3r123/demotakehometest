@@ -152,6 +152,7 @@ class FollowerListVC: GFDataLoadingVC {
                 } else {
                     presentDefaultError()
                 }
+                dismissLoadingView()
             }
         }
     }
@@ -161,10 +162,14 @@ class FollowerListVC: GFDataLoadingVC {
         PersistenceManage.updateWith(favorite: favorite, actionType: .add) { [weak self] error in
             guard let self = self else { return }
             guard let error = error else {
-                self.presentGFAlert(title: "Success", message: "Succesfully added to favorites 🎉", buttonTitle: "Ok")
+                DispatchQueue.main.async {
+                    self.presentGFAlert(title: "Success", message: "Succesfully added to favorites 🎉", buttonTitle: "Ok")
+                }
                 return
             }
-            self.presentGFAlert(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
+            DispatchQueue.main.async {
+                self.presentGFAlert(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
+            }
         }
     }
 }
